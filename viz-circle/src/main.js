@@ -10,7 +10,7 @@ const HeartbeatGraph = require('./graph-heartbeat')
 const GetRandomInt = require('./utils').GetRandomInt
 const _ = require('underscore')
 
-const feedUrl = 'http://127.0.0.1:7002/logs'
+const feedUrl = document.location.origin+'/logs'
 
 window.document.addEventListener('DOMContentLoaded', main)
 
